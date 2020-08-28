@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'MineApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'minecontrol'),
-        'ROOT': 'root',
+        'NAME': 'minecontrol',
+        'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': 3306,
+        'PORT': '3306',
     }
 }
 
